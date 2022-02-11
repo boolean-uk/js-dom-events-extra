@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div>
+    <h1>Part 1</h1>
+    <p>When the user clicks the button, show and alert with the message "Hello"</p>
+    <button id="part1">Say Hello!</button>
+  </div>
+  <div>
+    <h1>Part 2</h1>
+    <p>When the user clicks the button, show and alert with the message "Hello [name]", with [name] replaced with the 
+      value of whatever is in the text box
+    </p>
+    <div>
+      <input id="part2-name" placeholder="Enter your name"></input>
+    </div>
+    <button id="part2">Say Hello to me!</button>
+  </div>
+  <div>
+    <h1>Part 3</h1>
+    <p>When the mouse hovers over either of the boxes below, change it's background color red and change the 
+      background color of the other box to green.
+    </p>
+    <div class="box" id="part3-1">
+      
+    </div>
+    <div class="box" id="part3-2">
+      
+    </div>
+  </div>
+  <div>
+    <h1>Part 4</h1>
+    <p>Whenever the inputs below have focus, change their border to 5px red. When the use focuses out, set
+      the border back to normal. Try to use a single event handling function that works for all inputs by 
+      using the event object. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event">Hint</a>
+    </p>
+    <div>
+      <div>
+        <input class="part4" id="part4-1" />
+      </div>
+      <div>
+        <input class="part4" id="part4-2" />
+      </div>
+      <div>
+        <input class="part4" id="part4-3" />
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1>Part 5</h1>
+    <p>Whenever the use clicks the "submit" button, show an alert with the total of all the numbers
+      in the form:
+    </p>
+    <form>
+      <div>
+        <input class="part5" id="part5-1" type="number" value="0"/>
+      </div>
+      <div>
+        <input class="part5" id="part5-2" type="number" value="0" />
+      </div>
+      <div>
+        <input class="part5" id="part5-3" type="number" value="0" />
+      </div>
+      <div>
+        <input type="submit" value="Get Total"/>
+      </div>
+    </form>
+  </div>
+  <div>
+    <h1>Part 6</h1>
+    <p>Whenever the user selects a color value from the drop down, change the
+      box color the value of their selection.
+    </p>
+    <select name="colors" id="part6">
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="yellow">Yellow</option>
+      <option value="orange">Orange</option>
+      <option value="pink">Pink</option>
+    </select>
+    <div class="box" id="part6">
+      
+    </div>
+  </div>
+  <div>
+    <h1>Part 7</h1>
+    <p>When the user types in to the input below, only allow characters that are vowels ('a', 'e', 'i', 'o', 'u').</p>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault#stopping_keystrokes_from_reaching_an_edit_field">Hint</a></p>
+    <div>
+      <input class="part7" id="part7" />
+    </div>
+  </div>
+  <script>
+    
+  </script>
+</body>
+</html>
